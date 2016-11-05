@@ -26,6 +26,27 @@
     "addnsName": {
       "value": "#{dnsname}#"
     },
+	"virtualNetworkName": {
+      "value": "#{vnetname}#"
+    },
+	"virtualNetworkAddressRange": {
+      "value": "#{vnetrange}#"
+    },
+	"adSubnetName": {
+      "value": "#{subnetname}#"
+    },
+	"adSubnet": {
+      "value": "#{subnetrange}#"
+    },
+	"adNicIPAddress": {
+      "value": "#{vmip}#"
+    },
+	"publicIPAddressName": {
+      "value": "#{pipname}#"
+    },
+	"adVMName": {
+      "value": "#{vmname}#"
+    },
     "assetLocation": {
       "value": "https://raw.githubusercontent.com/xylosdevops/TasmanianTraders-IaC-ActiveDirectory/master/"
     }
